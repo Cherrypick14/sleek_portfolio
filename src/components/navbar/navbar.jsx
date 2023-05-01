@@ -24,7 +24,7 @@ const Navbar = () => {
       </div>
       
       {nav &&(
-        <div className='absolute md:hidden h-screen top-0 left-0 w-full bg-[#16222A]'>
+        <div className='absolute h-screen top-0 left-0 w-full bg-[#16222A]'>
             ( <ul className='flex flex-col space-y-6 items-center justify-center mt-12 sm:text-2xl text-[#85D8CE]'>
         {links.map((data)=>(
          <Navlinks data={data} key={data.id}/>
