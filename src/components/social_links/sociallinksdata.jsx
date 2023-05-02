@@ -8,17 +8,17 @@ export const links = [
         id:1,
         child:(
             <>
-             <FaLinkedin size={30} /> LinkedIn
+            LinkedIn <FaLinkedin size={30} />  
             </>
         ),
         href:"https://www.linkedin.com/in/cheryl-owala-423731191/",
-        style:'rounded-tl-md'
+        // style:'rounded-tl-md'
     },
     {
         id:2,
         child:(
             <>
-             <FaTwitter size={30} /> Twitter
+          Twitter  <FaTwitter size={30} />   
             </>
         ),
         href:"https://twitter.com/owalacheryl/status/1343881468154671104?lang=en",
@@ -28,7 +28,7 @@ export const links = [
         id:3,
         child:(
             <>
-             <FaGithub size={30} /> Github
+           Github <FaGithub size={30} />  
             </>
         ),
         href:"https://github.com/Cherrypick14",
@@ -38,7 +38,7 @@ export const links = [
         id:4,
         child:(
             <>
-             <HiOutlineMail size={30} /> Mail
+           Mail  <HiOutlineMail size={30} /> 
             </>
         ),
         href:"mailto:owalacheryl@gmail.com",
@@ -47,12 +47,12 @@ export const links = [
         id:5,
         child:(
             <>
-             <BsFillPersonLinesFill size={30} /> Resume
+             Resume <BsFillPersonLinesFill size={30} /> 
             </>
         ),
         href:"https://drive.google.com/file/d/1kwHFGwLg-zU606cprxDCAmpJ5V-HOYKr/view?usp=share_link",
-        style:'rounded-bl-md',
-        download:true
+        // style:'rounded-bl-md',
+        download:true,
     },
 ]
 
@@ -60,7 +60,7 @@ const Sociallinksdata = ({data}) => {
   return (
     
       <li className=
-      {'flex items-center justify-between w-40 h-14 px-4 bg-[#16222A] hover:rounded-md duration-300 mr-[-100px] hover:mr-[-10px]'}>
+      {'flex items-center justify-between w-40 h-14 px-4 bg-[#16222A] hover:rounded-md duration-300 ml-[-100px] hover:ml-[-10px]'}>
                 <a href={data.href}
                 className='w-full flex justify-between items-center text-[#85D8CE]'
                 download={data.download}
@@ -68,7 +68,7 @@ const Sociallinksdata = ({data}) => {
                 rel="noreferrer"
                 > 
             
-                {data.child}
+               {data.child}
                 
                 </a>
                
