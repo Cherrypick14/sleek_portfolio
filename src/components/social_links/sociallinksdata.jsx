@@ -12,7 +12,7 @@ export const links = [
             </>
         ),
         href:"https://www.linkedin.com/in/cheryl-owala-423731191/",
-        // style:'rounded-tl-md'
+        // style:'rounded-tr-md'
     },
     {
         id:2,
@@ -51,7 +51,7 @@ export const links = [
             </>
         ),
         href:"https://drive.google.com/file/d/1kwHFGwLg-zU606cprxDCAmpJ5V-HOYKr/view?usp=share_link",
-        // style:'rounded-bl-md',
+        // style:'rounded-br-md',
         download:true,
     },
 ]
