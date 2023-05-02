@@ -4,6 +4,7 @@ import Home from "./components/home/home";
 import Sociallinks from "./components/social_links/sociallinks";
 import About from "./components/about/about";
 import Portfolio from "./components/portfolio/portfolio";
+import Technologies from "./components/technologies/technologies";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Home />
      <About />
      <Portfolio />
+     <Technologies />
      
      <Sociallinks />
      
