@@ -16,7 +16,12 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
       {links.map((data)=>(
         
-        <Link to={data.link} smooth={true} spy={true} duration={500}offset={-80}>
+        <Link 
+        to={data.link} 
+        smooth={true}
+        spy={true} 
+        duration={500}
+        offset={-80}>
          <Navlinks data={data} key={data.id}/>
         </Link>
         
