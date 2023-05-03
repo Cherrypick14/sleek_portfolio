@@ -11,7 +11,7 @@ const Contacts = () => {
             </div>
 
             <div className='flex justify-center items-center'>
-            <form action="" className='flex flex-col w-full md:w-1/2'>
+            <form action="https://getform.io/f/e397256c-9fc3-4ce9-81a0-b05bcd7521ad" method='POST' className='flex flex-col w-full md:w-1/2'>
                 <input 
                 type="text"
                 name="name"
@@ -24,7 +24,7 @@ const Contacts = () => {
                 className='my-4 bg-transparent rounded-md focus:outline-none text-white p-2 border-2'/>
 
                 <textarea
-                name=""
+                name="textarea"
                 id=""
                 cols="30" 
                 rows="10"
