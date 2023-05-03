@@ -38,7 +38,7 @@ export const techstacks = [
         id:5,
         src:javascript,
         title:'JAVASCRIPT',
-        style:'shadow-yellow-500',
+        style:'shadow-yellow-300',
       },
       {
         id:6,
