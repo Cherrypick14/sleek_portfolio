@@ -12,7 +12,7 @@ export const links = [
             </>
         ),
         href:"https://www.linkedin.com/in/cheryl-owala-423731191/",
-        // style:'rounded-tr-md'
+        style:'rounded-tr-md',
     },
     {
         id:2,
@@ -51,7 +51,7 @@ export const links = [
             </>
         ),
         href:"https://drive.google.com/file/d/1kwHFGwLg-zU606cprxDCAmpJ5V-HOYKr/view?usp=share_link",
-        // style:'rounded-br-md',
+        style:'rounded-br-md',
         download:true,
     },
 ]
@@ -60,7 +60,7 @@ const Sociallinksdata = ({data}) => {
   return (
     
       <li className=
-      {'flex items-center justify-between w-40 h-14 px-4 bg-[#16222A] hover:rounded-md duration-300 ml-[-100px] hover:ml-[-10px]'}>
+      {`flex items-center justify-between w-40 h-14 px-4 bg-[#16222A] hover:rounded-md duration-300 ml-[-100px] hover:ml-[-10px] ${data.style}`}>
                 <a href={data.href}
                 className='w-full flex justify-between items-center text-[#85D8CE]'
                 download={data.download}
@@ -78,4 +78,4 @@ const Sociallinksdata = ({data}) => {
   )
 }
 
-export default Sociallinksdata
+export default Sociallinksdata;
