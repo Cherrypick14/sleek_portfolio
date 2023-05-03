@@ -1,6 +1,7 @@
 import React from 'react'
 import gprofile from '../../assets/gProfile.jpg'
 import{MdKeyboardArrowRight} from 'react-icons/md'
+import { Link } from "react-scroll";
 
 const Home = () => {
     
@@ -14,10 +15,10 @@ const Home = () => {
              </p>
 
              <div>
-                <button className='group text-white w-fit px-4 py-4 flex items-center rounded-md bg-gradient-to-bl from-[#3A6073] to bg-[#16222A] '>
+                <Link to='portfolio' smooth duration={500} offset={-80} className='group text-white w-fit px-4 py-4 flex items-center rounded-md bg-gradient-to-bl from-[#3A6073] to bg-[#16222A] cursor-pointer'>
                     Portfolio<span className='group-hover:rotate-90'> <MdKeyboardArrowRight size={25} className='ml-1
                     '/></span>
-                </button>
+                </Link>
              </div>
 
         </div>
