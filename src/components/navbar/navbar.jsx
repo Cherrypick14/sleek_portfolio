@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import{FaBars, FaTimesCircle} from 'react-icons/fa'
+import { Link } from "react-scroll";
 
 import Navlinks, {links} from '../navbar/navlinks'
 
@@ -14,7 +15,11 @@ const Navbar = () => {
       
       <ul className='hidden md:flex'>
       {links.map((data)=>(
+        
+        <Link to={data.link} smooth={true} spy={true} duration={500}offset={-80}>
          <Navlinks data={data} key={data.id}/>
+        </Link>
+        
        ))}
       </ul>  
 
@@ -27,7 +32,11 @@ const Navbar = () => {
         <div className='absolute h-screen top-0 left-0 w-full bg-[#16222A]'>
             ( <ul className='flex flex-col space-y-6 items-center justify-center mt-12 sm:text-2xl text-[#85D8CE]'>
         {links.map((data)=>(
-         <Navlinks data={data} key={data.id}/>
+
+          <Link to={data.link} smooth={true} spy={true} duration={500} onClick={()=>setNav(!nav)} >
+              <Navlinks data={data} key={data.id}/>
+          </Link>
+     
        ))}
         </ul>)
         </div>
