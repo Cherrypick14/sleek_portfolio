@@ -9,32 +9,49 @@ export const portfolios =[
     {
         id:1,
         src:ecom,
+        demo:'',
+        code:'https://github.com/Cherrypick14/react_ecommerce_shop',
     },
     {
         id:2,
         src:shopcart,
+        demo:'https://react-shopcarttt.vercel.app/',
+        code:'https://github.com/Cherrypick14/react-shopcart',
     },
     {
         id:3,
         src:todo,
+        demo:'https://reactto-do.vercel.app/',
+        code:'https://github.com/Cherrypick14/reactto_do',
     },
     {
         id:4,
         src:rad,
+        demo:'https://rad-tailwind.vercel.app/',
+        code:'https://github.com/Cherrypick14/rad-tailwind',
     },
     {
         id:5,
         src:landingpage,
+        demo:'https://star-to-my-light.netlify.app/',
+        code:'https://github.com/Cherrypick14/starlightconsult_firm',
     }
 ]
 
 const Portfolioarray = ({data}) => {
+  
   return (
     <div className='shadow-md rounded-lg shadow-[#859398]'>
      <img src={data.src} alt="" className='rounded-md duration-200 ease-in-out hover:scale-105' />
         <div className='flex items-center justify-center'>
-            <button className='w-[1/2] px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-             <button className='w-[1/2] px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+            <button 
+            className='w-[1/2] px-6 py-3 m-4 duration-200 hover:scale-105'
+            onClick={()=> window.location.href = data.demo}
+            
+            >Demo</button>
+             <button className='w-[1/2] px-6 py-3 m-4 duration-200 hover:scale-105'
+             onClick={()=> window.location.href = data.code}
+             >Code</button>
                 </div>
     </div>
   )
