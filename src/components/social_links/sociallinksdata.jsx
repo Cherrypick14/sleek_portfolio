@@ -50,7 +50,7 @@ export const links = [
              Resume <BsFillPersonLinesFill size={30} /> 
             </>
         ),
-        href:"https://drive.google.com/file/d/1kwHFGwLg-zU606cprxDCAmpJ5V-HOYKr/view?usp=share_link",
+        href:"https://drive.google.com/file/d/1ZSOR1mdfC9bkCkuPicmhNZ4GwNd4VrWQ/view?usp=share_link",
         style:'rounded-br-md',
         download:true,
     },
