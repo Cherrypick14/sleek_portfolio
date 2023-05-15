@@ -4,8 +4,9 @@ import shopcart from '../../assets/portfolio/react shop cat.png'
 import todo from '../../assets/portfolio/react todo list.png'
 import rad from '../../assets/portfolio/reactadmindashboard.png'
 import landingpage from '../../assets/portfolio/starlight landing page.png'
+import restcountriesapidata from '../../assets/portfolio/restcountries_data.png'
 
-export const portfolios =[
+export const portfolios = [
     {
         id:1,
         src:ecom,
@@ -35,6 +36,12 @@ export const portfolios =[
         src:landingpage,
         demo:'https://star-to-my-light.netlify.app/',
         code:'https://github.com/Cherrypick14/starlightconsult_firm',
+    },
+    {
+        id:6,
+        src:restcountriesapidata,
+        demo:'https://rest-countries-data-theta.vercel.app/',
+        code:'https://github.com/Cherrypick14/rest_countries_data',
     }
 ]
 
