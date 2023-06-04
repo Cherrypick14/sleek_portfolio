@@ -10,7 +10,7 @@ export const portfolios = [
     {
         id:1,
         src:ecom,
-        demo:'',
+        demo:'https://kiddoshop-8c099.web.app/',
         code:'https://github.com/Cherrypick14/react_ecommerce_shop',
     },
     {
