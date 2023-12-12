@@ -13,9 +13,9 @@ import golang   from '../../assets/techstacks/golang.svg'
 export const techstacks = [
     {
       id:1,
-      src:css3,
-      title:'CSS3',
-      style:'shadow-blue-300',
+      src:golang,
+      title:'GOLANG',
+      style:'shadow-sky-400',
     },
     {
         id:2,
@@ -67,9 +67,9 @@ export const techstacks = [
       },
       {
         id:10,
-        src:golang,
-        title:'GOLANG',
-        style:'shadow-sky-400',
+        src:css3,
+        title:'CSS3',
+        style:'shadow-blue-300',
       },
     
 ]
