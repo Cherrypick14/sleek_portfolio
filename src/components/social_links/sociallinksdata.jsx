@@ -21,7 +21,7 @@ export const links = [
         child:(
             <>
          
-           X <FontAwesomeIcon icon={Twitter} size={30} />
+           Twitter <FontAwesomeIcon icon={Twitter} size={30} />
           {/* Twitter  <FaTwitter size={30} />    */}
             </>
         ),
