@@ -1,7 +1,8 @@
 import React from 'react'
-import {FaGithub,FaLinkedin, FaTwitter} from 'react-icons/fa'
+import {FaGithub,FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const links = [
     {
@@ -18,7 +19,8 @@ export const links = [
         id:2,
         child:(
             <>
-          Twitter  <FaTwitter size={30} />   
+           X <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
+          {/* Twitter  <FaTwitter size={30} />    */}
             </>
         ),
         href:"https://twitter.com/owalacheryl/status/1343881468154671104?lang=en",
