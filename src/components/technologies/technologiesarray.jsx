@@ -15,7 +15,7 @@ export const techstacks = [
       id:1,
       src:golang,
       title:'GOLANG',
-      style:'shadow-blue-900',
+      style:'shadow-blue-950',
     },
     {
         id:2,
