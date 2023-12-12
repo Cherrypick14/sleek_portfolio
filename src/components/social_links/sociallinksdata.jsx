@@ -3,7 +3,7 @@ import {FaGithub,FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Twitter from '../logoss/twitter'
+import XLogo from '../xlogo/xlogo'
 
 export const links = [
     {
@@ -21,7 +21,7 @@ export const links = [
         child:(
             <>
          
-           Twitter <FontAwesomeIcon icon={Twitter} size={30} />
+           Twitter <FontAwesomeIcon icon={XLogo} size={30} />
           {/* Twitter  <FaTwitter size={30} />    */}
             </>
         ),
