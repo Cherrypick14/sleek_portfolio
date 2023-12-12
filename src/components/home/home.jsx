@@ -11,7 +11,7 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full ml-5'>
             <h2 className='text-3xl sm:text-5xl font-bold text-[#16222A]'>I'm a Full Stack Developer</h2>
              <p className='py-4 max-w-md text-white'>
-             As a full-stack developer, my forte lies in the artistry of front-end development. I specialize in crafting immersive and emotionally resonant user interfaces that transcend the ordinary. Join me on this dynamic journey where each line of code weaves a narrative, elevating digital experiences to new heights. Let's innovate, create, and shape the future of technology together.
+             As a full-stack developer, my forte lies in the artistry of front-end development. I specialize in crafting immersive and emotionally resonant user interfaces that transcend the ordinary. 
              </p>
 
              <div>
