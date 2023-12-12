@@ -19,7 +19,7 @@ export const links = [
         id:2,
         child:(
             <>
-           X <FontAwesomeIcon icon="fa-brands fa-x-twitter" size='30' />
+           X <FontAwesomeIcon icon="fa-brands fa-x-twitter" size={30} />
           {/* Twitter  <FaTwitter size={30} />    */}
             </>
         ),
