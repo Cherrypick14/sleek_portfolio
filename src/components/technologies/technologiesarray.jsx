@@ -8,6 +8,7 @@ import node from '../../assets/techstacks/icons8-nodejs-144.png'
 import python from '../../assets/techstacks/icons8-python-144.png'
 import reactimage from '../../assets/techstacks/icons8-react-native-144.png'
 import tailwind from '../../assets/techstacks/icons8-tailwindcss-144.png'
+import golang   from '../../assets/techstacks/golang.svg'
 
 export const techstacks = [
     {
@@ -62,6 +63,12 @@ export const techstacks = [
         id:9,
         src:tailwind,
         title:'TAILWIND',
+        style:'shadow-sky-400',
+      },
+      {
+        id:10,
+        src:golang,
+        title:'GOLANG',
         style:'shadow-sky-400',
       },
     
