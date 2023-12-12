@@ -7,18 +7,22 @@ export const links = [
     },
     {
         id:2,
-        link:'about'
+        link:'piscine'
     },
     {
         id:3,
-        link:'portfolio'
+        link:'gallery'
     },
     {
         id:4,
-        link:'technologies'
+        link:'projects'
     },
     {
         id:5,
+        link:'techstacks'
+    },
+    {
+        id:6,
         link:'contacts'
     },
 ]
