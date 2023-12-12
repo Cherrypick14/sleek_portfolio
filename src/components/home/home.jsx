@@ -15,8 +15,8 @@ const Home = () => {
              </p>
 
              <div>
-                <Link to='portfolio' smooth duration={500} offset={-80} className='group text-white w-fit px-4 py-4 flex items-center rounded-md bg-gradient-to-bl from-[#3A6073] to bg-[#16222A] cursor-pointer'>
-                    Portfolio<span className='group-hover:rotate-90'> <MdKeyboardArrowRight size={25} className='ml-1
+                <Link to='projects' smooth duration={500} offset={-80} className='group text-white w-fit px-4 py-4 flex items-center rounded-md bg-gradient-to-bl from-[#3A6073] to bg-[#16222A] cursor-pointer'>
+                    Projects<span className='group-hover:rotate-90'> <MdKeyboardArrowRight size={25} className='ml-1
                     '/></span>
                 </Link>
              </div>
