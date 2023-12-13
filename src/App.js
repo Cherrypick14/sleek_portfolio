@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
 import Sociallinks from "./components/social_links/sociallinks";
-import About from "./components/about/about";
+import Piscine from "./components/piscine/piscine";
 import Portfolio from "./components/portfolio/portfolio";
 import Technologies from "./components/technologies/technologies";
 import Contacts from "./components/contacts/contacts";
@@ -13,7 +13,7 @@ function App() {
 
      <Navbar />
      <Home />
-     <About />
+     <Piscine />
      <Portfolio />
      <Technologies />
      <Contacts />
