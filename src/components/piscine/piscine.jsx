@@ -2,7 +2,7 @@ import React from 'react'
 
 const Piscine = () => {
   return (
-    <div name="about" className='h-screen w-full bg-gradient-to-tl from-[#16222A] via-[#3A6073] to bg-[#85D8CE]'>
+    <div name="piscine" className='h-screen w-full bg-gradient-to-tl from-[#16222A] via-[#3A6073] to bg-[#85D8CE]'>
         <div className='max-w-screen-lg h-screen w-full justify-center flex flex-col p-4 mx-auto'>
             <div className='pb-4'>
                 <h2 className='font-bold text-4xl border-b-4 inline text-[#16222A] '>Piscine - Nurturing Growth in a Coding Odyssey</h2>
