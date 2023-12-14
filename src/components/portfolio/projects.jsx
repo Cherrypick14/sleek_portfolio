@@ -4,7 +4,7 @@ import Projectsarray,{projects} from './projectsarray';
 
 const Project = () => {
   return (
-    <div name='project'className='h-screen w-full bg-gradient-to-tl from-[#16222A] via-[#3A6073] to bg-[#85D8CE] text-white'>
+    <div name='projects'className='h-screen w-full bg-gradient-to-tl from-[#16222A] via-[#3A6073] to bg-[#85D8CE] text-white'>
        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-screen'>
           <div className='pb-8'>
             <p className='font-bold text-4xl border-b-4 inline text-[#16222A]'>Projects</p>
