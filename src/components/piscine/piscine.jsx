@@ -8,7 +8,7 @@ const Piscine = () => {
                 <h2 className='font-bold text-4xl border-b-4 inline text-[#16222A] '>Piscine - Nurturing Growth in a Coding Odyssey</h2>
             </div>
             <p className=' md:text-xl  md:mt-20 text-white'>
-            Embarking on the Piscine, a rigorous four-week in-person coding interview, proved to be a transformative experience that not only honed my technical skills but also fostered adaptability and resilience. Navigating an array of coding challenges, I swiftly adapted to the demanding pace, showcasing not only problem-solving prowess but also creativity and ingenuity.
+            Embarking on the Piscine, a rigorous four-week in-person coding interview @zone01_Kisumu, proved to be a transformative experience that not only honed my technical skills but also fostered adaptability and resilience. Navigating an array of coding challenges, I swiftly adapted to the demanding pace, showcasing not only problem-solving prowess but also creativity and ingenuity.
             </p>
             <br/>
             <p className='md:text-xl text-white '>
