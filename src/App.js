@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
 import Sociallinks from "./components/social_links/sociallinks";
 import Project from "./components/portfolio/projects";
-import Technologies from "./components/technologies/technologies";
+import TechStacks from "./components/technologies/techstacks";
 import Contacts from "./components/contacts/contacts";
 import Piscine from "./components/piscine/piscine";
 
@@ -15,7 +15,7 @@ function App() {
      <Home />
      <Piscine />
      <Project />
-     <Technologies />
+     <TechStacks />
      <Contacts />
      
      <Sociallinks />
