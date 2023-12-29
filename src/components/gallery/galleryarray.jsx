@@ -11,44 +11,30 @@ export const gallerystack = [
   {
     id:1,
     src:endpiscine,
-    title:'ENDPISCINE',
-    style:'shadow-blue-950',
   },
   {
     id:2,
     src:kiddo,
-    title:'KIDDO',
-    style:'shadow-orange-300',
   },
   {
     id:3,
     src:lakehub2,
-    title:'LAKEHUB2',
-    style:'shadow-gray-300',
   },
   {
     id:4,
     src:lakehub3,
-    title:'LAKEHUB3',
-    style:'shadow-orange-500',
   },
   {
     id:5,
     src:success,
-    title:'SUCCESS',
-    style:'shadow-yellow-300',
   },
   {
     id:6,
     src:py,
-    title:'PY',
-    style:'shadow-green-500',
   },
   {
     id:7,
     src:zone01,
-    title:'ZONE01',
-    style:'shadow-yellow-500',
   },
 ]
 
