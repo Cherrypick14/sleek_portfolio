@@ -43,7 +43,7 @@ const Galleryarray = ({data}) => {
     <div className= 'max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl'>
       <div className='md:flex'>
         <div className='md:shrink-0'>
-        <img src={data.src} alt="" className='h-48 w-full  md:w-48'/>
+        <img src={data.src} alt="" className='h-48 w-full object-cover md:w-48'/>
         </div>
       </div>
   </div>
