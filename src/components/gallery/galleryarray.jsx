@@ -40,10 +40,9 @@ export const gallerystack = [
 
 const Galleryarray = ({data}) => {
   return (
-    <div className={`shadow-md hover:scale-105 duration-300 py-2 rounded-lg ${data.style}`}>
+    <div className= 'shadow-md hover:scale-105 duration-300 py-2 rounded-lg'>
     <img src={data.src} alt="" className='w-40 mx-auto' />
-     <p><span className='mt-4'>{data.title}</span></p>
-       
+     
   </div>
   )
 }
