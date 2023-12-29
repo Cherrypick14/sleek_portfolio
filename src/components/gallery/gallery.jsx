@@ -8,7 +8,7 @@ const Gallery = () => {
         <div className='pb-8'>
             <p className='font-bold text-4xl border-b-4 inline text-[#16222A] p-2'>Gallery</p>
         </div>
-        <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 py-8 sm:px-0 text-center pb-5'>
+        <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 py-8 sm:px-0 text-center'>
            {gallerystack.map((data)=>(
               <Galleryarray data={data} key={data.key}/>
            ))}
