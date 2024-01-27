@@ -1,10 +1,10 @@
 import React from 'react'
 import ecom from '../../assets/portfolio/kiddostore_ecom.png'
 import shopcart from '../../assets/portfolio/react shop cat.png'
-import todo from '../../assets/portfolio/react todo list.png'
 import rad from '../../assets/portfolio/reactadmindashboard.png'
 import landingpage from '../../assets/portfolio/starlight landing page.png'
 import restcountriesapidata from '../../assets/portfolio/restcountries_data.png'
+import yene from '../../assets/portfolio/yeneecommerce-store.png'
 
 export const projects = [
     {
@@ -21,9 +21,8 @@ export const projects = [
     },
     {
         id:3,
-        src:todo,
-        demo:'https://reactto-do.vercel.app/',
-        code:'https://github.com/Cherrypick14/reactto_do',
+        src:yene,
+        demo:'https://tanz-tech.com/portfolio/Projects/YENA_USER/index.html',
     },
     {
         id:4,
